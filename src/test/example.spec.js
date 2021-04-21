@@ -40,7 +40,7 @@ describe('fizz buz problem', function() {
     it("If number is divisible by 7 and 5 should return BuzSuzz", function() {
         expect(fizzBuzz(35)).to.equal("BuzzSuzz");
     });
-    it("If number is divisible by 7 and 3 should return BuzSuzz", function() {
+    it("If number is divisible by 7 and 3 should return FizzSuzz", function() {
         expect(fizzBuzz(21)).to.equal("FizzSuzz");
     });
 });
