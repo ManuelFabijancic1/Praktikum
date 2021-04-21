@@ -6,12 +6,9 @@
 function fizzBuzz(num) {
     if(isNaN(num)) throw Error();
     let result = "";
-    if(!(num % 3)) result = "Fizz";
-    if(!(num % 5)) result = "Buzz";
-    if(!(num % 5)&&!(num % 3)) result = "FizzBuzz";
-    if(!(num % 7)) result = "Suzz";
-    if(!(num % 7)&&!(num % 5)) result = "BuzzSuzz";
-    if(!(num % 7)&&!(num % 3)) result = "FizzSuzz";
+    if(!(num % 3)) result += "Fizz";
+    if(!(num % 5)) result += "Buzz";
+    if(!(num % 7)) result += "Suzz";
     return result;
 }
 
