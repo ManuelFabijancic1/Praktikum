@@ -43,6 +43,9 @@ describe('fizz buz problem', function() {
     it("If number is divisible by 7 and 3 should return FizzSuzz", function() {
         expect(fizzBuzz(21)).to.equal("FizzSuzz");
     });
+      it("If number is divisible by 7 and 5 and 3 should return FizzBuzzSuzz", function() {
+        expect(fizzBuzz(105)).to.equal("FizzBuzzSuzz");
+    });
 });
 
 //R-G-R
