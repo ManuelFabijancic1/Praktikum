@@ -4,17 +4,16 @@
   "description": "TDD demo scripts",
   "main": "index.js",
   "scripts": {
-    "test": "mocha src/**/**.spec.js",
-    "watch": "mocha --watch src/**/**.spec.js"
+    "test": "mocha src/**/**.test.js",
+    "watch": "mocha --watch src/**/**.test.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dbencic/tdd-demo"
+    "url": ""
   },
   "keywords": [
     "tdd"
   ],
-  "author": "dragan.bencic@infobip.com",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.3.4",
